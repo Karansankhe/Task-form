@@ -110,4 +110,15 @@ stopwatch_time: string
 
 ![Screenshot (919)](https://github.com/Karansankhe/Task-form/assets/98593148/a870e7e3-bf60-453c-a4c1-55ce90da8f8f)
 
+6. /search) from email
+   Method: GET
 
+   Query Parameter:
+
+   email: string - The email address to search for in the submissions.
+
+   
+![Screenshot (921)](https://github.com/Karansankhe/Task-form/assets/98593148/2393320a-cd58-4dc1-b3e0-b78df1a579d1)
+
+
+7. 
