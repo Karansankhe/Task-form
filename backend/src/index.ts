@@ -120,6 +120,29 @@ app.put('/edit', (req: Request, res: Response) => {
   }
 });
 
+// Endpoint to search for submissions by email
+app.get('/search', (req: Request, res: Response) => {
+  const { email } = req.query;
+
+  // Read submissions from db.json
+  let submissions: any[] = [];
+  try {
+    const data = fs.readFileSync('db.json', 'utf8');
+    submissions = JSON.parse(data);
+  } catch (err) {
+    console.error('Error reading db.json', err);
+  }
+
+  // Filter submissions by email
+  const filteredSubmissions = submissions.filter(submission => submission.Email === email);
+
+  if (filteredSubmissions.length > 0) {
+    res.json(filteredSubmissions);
+  } else {
+    res.status(404).json({ error: 'No submissions found for the provided email' });
+  }
+});
+
 // Start the server
 app.listen(PORT, () => {
   console.log(`Server is running on http://localhost:${PORT}`);
