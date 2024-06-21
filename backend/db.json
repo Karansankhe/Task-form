@@ -1,58 +1,9 @@
 [
   {
-    "name": "John Doe",
-    "email": "john.doe@example.com",
-    "phone": "1234567890",
-    "github_link": "https://github.com/johndoe",
-    "stopwatch_time": "00:05:30"
-  },
-  {
-    "name": "John Doe",
-    "email": "john.doe@example.com",
-    "phone": "1234567890",
-    "github_link": "https://github.com/johndoe",
-    "stopwatch_time": "00:05:30"
-  },
-  {
-    "name": "John Doe",
-    "email": "john.doe@example.com",
-    "phone": "1234567890",
-    "github_link": "https://github.com/johndoe",
-    "stopwatch_time": "00:05:30"
-  },
-  {
-    "name": "John Doe",
-    "email": "john.doe@example.com",
-    "phone": "1234567890",
-    "github_link": "https://github.com/johndoe",
-    "stopwatch_time": "00:05:30"
-  },
-  {
-    "name": "John Doe",
-    "email": "john.doe@example.com",
-    "phone": "1234567890",
-    "github_link": "https://github.com/johndoe",
-    "stopwatch_time": "00:05:30"
-  },
-  {
-    "name": "John Doe",
-    "email": "john.doe@example.com",
-    "phone": "1234567890",
-    "github_link": "https://github.com/johndoe",
-    "stopwatch_time": "00:05:30"
-  },
-  {
-    "name": "John Doe",
-    "email": "john.doe@example.com",
-    "phone": "1234567890",
-    "github_link": "https://github.com/johndoe",
-    "stopwatch_time": "00:05:30"
-  },
-  {
-    "name": "John Doe",
-    "email": "john.doe@example.com",
-    "phone": "1234567890",
-    "github_link": "https://github.com/johndoe",
-    "stopwatch_time": "00:05:30"
+    "SubmissionName": "karan king",
+    "Email": "abc@gmail.com",
+    "PhoneNum": "1234567891",
+    "GithubLink": "https://github.com/as",
+    "StopwatchTime": "00:00:00"
   }
 ]
