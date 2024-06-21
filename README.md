@@ -6,10 +6,15 @@ All the Compulsory as well as Additional features are implemented
 
 
 Features
+
+
 ------Compulsory------
 /ping - A GET request that always returns {"success": true}
 /submit - A POST request to submit a new form
 /read - A GET request to read a form submission by index
+
+
+
 ------Additional-------
 /delete - A DELETE request to delete a form submission by index
 /edit - A PUT request to edit a form submission by index
