@@ -1,4 +1,4 @@
----------Express TypeScript Backend Server-------------
+![image](https://github.com/Karansankhe/Task-form/assets/98593148/6e9cb02a-2559-4c2b-a512-81a5eda6a737)---------Express TypeScript Backend Server-------------
 
 SHORT DESCRIPTION: This is a backend server built with Express and TypeScript that allows for saving and retrieving form submissions. The server uses a JSON file (db.json) as a database to store the submissions. This project includes basic CRUD operations and additional features.
 
@@ -121,4 +121,35 @@ stopwatch_time: string
 ![Screenshot (921)](https://github.com/Karansankhe/Task-form/assets/98593148/2393320a-cd58-4dc1-b3e0-b78df1a579d1)
 
 
-7. 
+7. /list?page=1&limit=5
+
+   List Submissions with Pagination
+   
+   Method:GET
+![Screenshot (922)](https://github.com/Karansankhe/Task-form/assets/98593148/95d91a27-f1a6-4ba3-a98d-71a60fc29fce)
+
+8./searchByName?name=John(eg is john)
+
+Search Submissions by Name
+
+
+Method:GET
+
+![Screenshot (924)](https://github.com/Karansankhe/Task-form/assets/98593148/825424ae-28fa-4798-b1b9-0efd4f6acd16)
+
+9)/update
+
+supports partial updates to existing submissions in the database
+
+Method: PATCH
+
+![Screenshot (926)](https://github.com/Karansankhe/Task-form/assets/98593148/cccd7793-7849-4077-80ea-767e09ac1f38)
+
+10)/Count
+
+Count the number of submissions
+
+Method:GET
+
+![Screenshot (927)](https://github.com/Karansankhe/Task-form/assets/98593148/f07c69a6-390f-45b0-a9d5-22731522f5bd)
+
