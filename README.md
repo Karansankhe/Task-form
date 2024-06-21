@@ -1,4 +1,4 @@
-![image](https://github.com/Karansankhe/Task-form/assets/98593148/6e9cb02a-2559-4c2b-a512-81a5eda6a737)---------Express TypeScript Backend Server-------------
+---------Express TypeScript Backend Server-------------
 
 SHORT DESCRIPTION: This is a backend server built with Express and TypeScript that allows for saving and retrieving form submissions. The server uses a JSON file (db.json) as a database to store the submissions. This project includes basic CRUD operations and additional features.
 
