@@ -23,8 +23,8 @@ Getting Started
 
 INSTALLATION
 -----Clone the repository-----
-1) git clone
-2) cd <foleder-name>
+1) git clone https://github.com/Karansankhe/Task-form.git
+2) cd backend
 
 
 ----Install dependencies----
