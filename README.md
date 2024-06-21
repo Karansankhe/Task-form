@@ -40,6 +40,8 @@ create a db.json (already there in the floder)
 npm start 
 or 
 yarn start
+or 
+npm run dev
 
 as a result the server will be running at `http://localhost:3000`
 
