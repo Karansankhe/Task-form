@@ -15,11 +15,6 @@ Features
 
 
 
-------Additional-------
-/delete - A DELETE request to delete a form submission by index
-/edit - A PUT request to edit a form submission by index
-Search submissions by email ID
-
 
 Getting Started
 -----Prerequisites-----
